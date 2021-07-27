@@ -5,7 +5,6 @@ export let movieListContainer;
 export let infoField;
 let searchBox;
 
-
 const createElement = ({
   type,
   attrs,
@@ -232,9 +231,7 @@ const createListContainer = () => {
         innerText: 'Перечень фильмов в списке'},
     container: movieListContainer});
 };
-// const deleteListContainer = () => {
-  
-// }
+
 export const createMovieList = (searchFilm) => {
     createElement({
       type: 'li',

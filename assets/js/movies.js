@@ -16,7 +16,6 @@ let siteUrl = null;
 
 let searchLast = null;
 let searchList = null;
-// let searchListDomEl = null;
 
 const debounce = (() => {
   let timer = null;
@@ -45,8 +44,6 @@ const inputSearchHandler = (e) => {
         searchList = [];
       } 
       else {
-        // let el = document.querySelector('.search__movie-item');
-        // console.log(el);
         if (searchList.length ===1 &&  document.querySelector('.search__movie-item') === null) createMovieList(searchList[searchList.length - 1]);
         };
       
