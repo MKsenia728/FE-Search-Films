@@ -91,10 +91,10 @@ export const createStyle = () => {
       font-weight: 200;
       border-radius: 4px;
       border: 1px solid rgb(247, 155, 75);
-      position: absolute;
-      z-index: 10;
-      top: 15px;
-      left: 0;
+      // position: absolute;
+      // z-index: 10;
+      // top: 15px;
+      // left: 0;
     }
     .search__movie-list {
       width: 400px;
